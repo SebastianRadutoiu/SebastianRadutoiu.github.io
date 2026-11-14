@@ -3,41 +3,74 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>XDSS Apps</title>
-<meta name="description" content="Small, calm Android apps by XDSS.">
-<style>
-  :root { --bg: #f8f9fb; --fg: #1a1c1f; --muted: #42474e; --accent: #2d5b86; --line: #c2c7cf; --card: #ffffff; }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg: #111316; --fg: #e2e2e6; --muted: #c2c7cf; --accent: #9dc9f5; --line: #42474e; --card: #1a1c1f; }
-  }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
-  h1 { font-family: Georgia, "Noto Serif", serif; font-weight: 500; font-size: 32px; margin: 0 0 4px; }
-  .lead { color: var(--muted); margin: 0 0 32px; }
-  .app { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin: 0 0 16px; }
-  .app h2 { font-size: 20px; margin: 0 0 4px; }
-  .app p { margin: 0 0 8px; color: var(--muted); }
-  .links a { margin-right: 16px; }
-  a { color: var(--accent); }
-  footer { margin-top: 40px; color: var(--muted); font-size: 14px; }
-</style>
+<title>XDSS Apps · X Dev &amp; Security Solution SRL</title>
+<meta name="description" content="XDSS Apps is the Android app studio of X Dev & Security Solution SRL: calm puzzle games and everyday tools with no account needed.">
+<meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1114" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-<main>
-<h1>XDSS Apps</h1>
-<p class="lead">Small, calm Android apps. No accounts, no clutter.</p>
-
-<section class="app">
-  <h2>Stillgrid: Calm Sudoku</h2>
-  <p>A calm, classic 9x9 Sudoku with a clean board, notes and hints. Works offline.</p>
-  <div class="links">
-    <a href="https://play.google.com/store/apps/details?id=com.xdss.stillgrid">Google Play</a>
-    <a href="https://sebastianradutoiu.github.io/xdss-privacy/stillgrid/">Privacy policy</a>
-    <a href="https://sebastianradutoiu.github.io/xdss-privacy/stillgrid/terms/">Terms of Service</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/"><img src="/assets/logo.svg" alt="" width="32" height="32">XDSS Apps</a>
+    <nav class="nav" aria-label="Main">
+      <a href="/" aria-current="page">Home</a>
+      <a href="/apps/">Apps</a>
+      <a href="/contact/">Contact</a>
+      <a href="/company/">Company</a>
+    </nav>
   </div>
-</section>
+</header>
 
-<footer>Contact: <a href="mailto:sebiradutoiu@gmail.com">sebiradutoiu@gmail.com</a></footer>
+<main>
+  <div class="wrap">
+    <section class="hero">
+      <h1>Calm, focused apps for Android</h1>
+      <p class="lead">XDSS Apps is the app studio of X Dev &amp; Security Solution SRL, a small software company based in Romania. We make puzzle games and everyday tools that open fast, stay out of your way and never ask you to sign up.</p>
+      <p><a class="button" href="/apps/">See our apps</a></p>
+    </section>
+
+    <h2>What we make</h2>
+    <div class="values">
+      <div class="card">
+        <h3>Puzzle games</h3>
+        <p>Sudoku, nonograms, minesweeper, mahjong solitaire and a traffic escape puzzle. Logic puzzles you can solve by reasoning, never by guessing, with big readable boards.</p>
+      </div>
+      <div class="card">
+        <h3>Everyday tools</h3>
+        <p>A focus timer, an expense log, a water reminder, a QR code scanner and a notes app. Each one does one job well, in as few taps as possible.</p>
+      </div>
+    </div>
+
+    <h2>How we build them</h2>
+    <div class="values">
+      <div class="card">
+        <h3>No account needed</h3>
+        <p>You never create an account. What you make in our apps is kept on your phone, not on our servers.</p>
+      </div>
+      <div class="card">
+        <h3>Clear about data</h3>
+        <p>Every app has its own privacy policy that says exactly what is collected and why. You can read them all on the <a href="/apps/">Apps</a> page.</p>
+      </div>
+      <div class="card">
+        <h3>Fair pricing</h3>
+        <p>Our apps are free to download. Some show ads and offer a one-time purchase that removes them. No subscriptions.</p>
+      </div>
+    </div>
+  </div>
 </main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 X Dev &amp; Security Solution SRL</span>
+    <nav aria-label="Footer">
+      <a href="/apps/">Apps &amp; privacy policies</a>
+      <a href="/contact/">Contact</a>
+      <a href="/company/">Company information</a>
+      <a href="/privacy/">Website privacy</a>
+    </nav>
+  </div>
+</footer>
 </body>
 </html>
